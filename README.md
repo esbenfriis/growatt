@@ -148,3 +148,15 @@ Create the Dashboard from the JSON file in the repos:
 Create -> Import -> Upload JSON file 
 select the "elpris.json" file and click import
  
+ 
+## Hardware
+(to be completed)
+ 
+* Serial cable from Growatt inverter, using a Delock USB 2.0 to serial RS-485 adapter
+* Wiring of the LDR resistor to a GPIO pin on the Raspberry pi
+
+ 
+ 
+ 
+ 
+ 
