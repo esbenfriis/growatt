@@ -14,7 +14,7 @@ The full installation (GUI + recommended programs) was used here
 
 ### Log in to the Rapsberry
 ```
-sudo adduser epf  # add user epf with default options
+sudo adduser myuser  # add user myuser with default options
 sudo adduser share   # add user share with default options
 ```
 
