@@ -87,8 +87,8 @@ sudo pip3 install rfc3339
 ```
 If you are not running as user "pi", you must add your user to the gpio and dialout groups. Edit the /etc/group file, to look like e.g.  
 ```
-dialout:x:20:pi,epf
-gpio:x:997:pi,epf
+dialout:x:20:pi,myuser
+gpio:x:997:pi,myuser
 ```
 (I had to log out and back in for this to take effect)
 
@@ -105,9 +105,9 @@ Correct behaviour is that no output or error messages is produced :-)
 
 Make them start automatically on boot by adding these two lines to the crontab. Use "crontab -e" to edit the crontab
 ```  
-@reboot python3 /home/epf/grid/ldr_monitor.py
-@reboot python3 /home/epf/grid/growatt_monitor.py
-05 01 * * *  /home/epf/grid/price_monitor.py
+@reboot python3 /home/myuser/grid/ldr_monitor.py
+@reboot python3 /home/myuser/grid/growatt_monitor.py
+05 01 * * *  /home/myuser/grid/price_monitor.py
 ```
 Reboot and make sure the scripts start
 
