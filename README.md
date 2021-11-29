@@ -1,4 +1,7 @@
 # growatt
+
+<img src="https://github.com/esbenfriis/growatt/blob/main/docs/grafana.png" width="400">
+
 ## A small project to monitor and record data from
   * Growatt MIC 3000TL-X inverter  
   * Kamstrup power meter using its built-in LED (1 flash per Wh)
